@@ -1,0 +1,358 @@
+FORMAT: 1A
+HOST: https://sit-mobile-apis.the1.co.th
+
+# iMB.MN.08 - Get badge available (master)
+
+## Badge available [/badge/available?category={category}&missionType={missionType}]
+
+### Get badge available [GET]
+
++ Parameters
+
+    + category:All (string) - badge category
+    + missionType:All (string, optional) - badge category
+    
++ Response 200 (application/json)
+
+            {
+                "badges": [
+                    {
+                        "id": "BDG_SEGAFREDO_LOVER_CL",
+                        "displayName": "Segafredo2",
+                        "newArrival": true,
+                        "termsConditions": "<p>TERMS &amp; CONDITIONS</p><p> </p><p>1. Make 5 drink purchases at Segafredo within May 31, 2025 to finish the mission.</p><p> </p><p>2. Identify your The 1 membership when making purchases to record mission progress</p><p> </p><p>3. Mission progress will be updated and shown on The 1 application within 1 day after making eligible purchases </p><p> </p><p>4. Coupon will be rewarded to your account right after finishing the mission. Please find it in the &quot;&quot;My Rewards&quot;&quot; menu</p><p> </p><p>5. Activity period is 24 April - 31 May 2025</p><p> </p><p>6. Limited to 1 member per 1 privilege per 1 Month throughout the campaign </p><p> </p><p>7. The company reserves the right to change terms and conditions without prior notice.</p><p> </p><p>8. For more details please contact The 1 Call Center 0-2660-1000</p>",
+                        "endingSoon": {
+                            "timeToExpire": 7.0,
+                            "timeUnit": "days"
+                        },
+                        "rules": "Make 5 drink purchases within a month",
+                        "achievementText": "<p>You get a FREE Drink!  I'm thirsty could you get me drink?</p>",
+                        "categories": [
+                            {
+                                "name": "Highlights"
+                            },
+                            {
+                                "name": "Dining"
+                            }
+                        ],
+                        "campaign": {
+                            "endDate": "2025-05-31T16:59:59Z",
+                            "name": "BDG_SEGAFREDO_LOVER2",
+                            "description": "",
+                            "id": "7832",
+                            "campaignReference": "",
+                            "startDate": "2025-04-23T17:00:01Z",
+                            "behaviors": [
+                                {
+                                    "title": "Achieved Over all Mission",
+                                    "goalType": "count",
+                                    "id": "26984"
+                                }
+                            ]
+                        },
+                        "badgeUrl": "https://library.the1.co.th/content/dam/the1/badge/SegafredoLoverMissionImage.png",
+                        "thumbnail": "https://library.the1.co.th/content/dam/the1/badge/SegafredoLoverMissionImage.png",
+                        "missionType": "checklist",
+                        "brand": {
+                            "code": "brandcode",
+                            "name": "brand name",
+                            "weight": 0.0,
+                            "image": "https://uatlibrary.the1.co.th/content/dam/badge/BNBChampion.png"
+                        },
+                        "accountingBranch": {
+                            "code": "acct branch code",
+                            "name": "acct branch name"
+                        },
+                        "branch": {
+                            "code": "branch code",
+                            "name": "branch name"
+                        },
+                        "childBadges": [
+                            {
+                                "id": "BDG_SEGAFREDO_STALL_ONE",
+                                "newArrival": false,
+                                "campaign": {
+                                    "endDate": "2025-05-23T17:00:01Z",
+                                    "id": "26901",
+                                    "startDate": "2025-04-23T17:00:01Z",
+                                    "behaviors": [
+                                        {
+                                            "title": "Stall #1 Mission Achieved",
+                                            "goalType": "count",
+                                            "id": "37001",
+                                            "outcome": {
+                                                "description": "<p>Get 1 FREE #c item from stall #1</p>",
+                                                "image": "https://uatlibrary.the1.co.th/content/dam/badge/20250317_Bann_Beyond_Lucky_31.png",
+                                                "expiry": "2025-05-31T23:59:00Z",
+                                                "type": "Reward",
+                                                "value": "13a09d046-f437-4245-af9d-f42a7dfa101c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "brand": {},
+                                "accountingBranch": {},
+                                "branch": {},
+                                "childBadges": []
+                            },
+                            {
+                                "id": "BDG_SEGAFREDO_STALL_TWO",
+                                "newArrival": false,
+                                "campaign": {
+                                    "endDate": "2025-05-23T17:00:01Z",
+                                    "id": "26912",
+                                    "startDate": "2025-04-23T17:00:01Z",
+                                    "behaviors": [
+                                        {
+                                            "title": "Stall #2 Mission Achieved",
+                                            "goalType": "count",
+                                            "id": "26981",
+                                            "outcome": {
+                                                "description": "<p>Get 1 FREE item #c from stall #2</p>",
+                                                "image": "https://uatlibrary.the1.co.th/content/dam/badge/BDGHUGESPENDERJUN.png",
+                                                "expiry": "2025-05-31T23:59:00Z",
+                                                "type": "Reward",
+                                                "value": "53a09d046-f437-4245-af9d-f42a7dfa101c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "brand": {},
+                                "accountingBranch": {},
+                                "branch": {},
+                                "childBadges": []
+                            }
+                        ],
+                        "analyticsTag": "some tag text"
+                    },
+                    {
+                        "id": "BDG_REDEEM_CL",
+                        "displayName": "Redeem",
+                        "newArrival": true,
+                        "termsConditions": "<p>TERMS &amp; CONDITIONS</p><p> </p><p>1. Make 5 drink purchases at Segafredo within May 31, 2025 to finish the mission.</p><p> </p><p>2. Identify your The 1 membership when making purchases to record mission progress</p><p> </p><p>3. Mission progress will be updated and shown on The 1 application within 1 day after making eligible purchases </p><p> </p><p>4. Coupon will be rewarded to your account right after finishing the mission. Please find it in the &quot;&quot;My Rewards&quot;&quot; menu</p><p> </p><p>5. Activity period is 24 April - 31 May 2025</p><p> </p><p>6. Limited to 1 member per 1 privilege per 1 Month throughout the campaign </p><p> </p><p>7. The company reserves the right to change terms and conditions without prior notice.</p><p> </p><p>8. For more details please contact The 1 Call Center 0-2660-1000</p>",
+                        "endingSoon": {
+                            "timeToExpire": 7.0,
+                            "timeUnit": "days"
+                        },
+                        "rules": "Make 5 drink purchases within a month",
+                        "achievementText": "<p>You get a FREE Drink!  I'm thirsty could you get me drink?</p>",
+                        "categories": [
+                            {
+                                "name": "Highlights"
+                            },
+                            {
+                                "name": "Just for you"
+                            }
+                        ],
+                        "campaign": {
+                            "endDate": "2025-05-31T16:59:59Z",
+                            "name": "BDG_REDEEM_CL",
+                            "description": "",
+                            "id": "7832",
+                            "campaignReference": "",
+                            "startDate": "2025-04-23T17:00:01Z",
+                            "behaviors": [
+                                {
+                                    "title": "Achieved Over all Mission",
+                                    "goalType": "count",
+                                    "id": "26984",
+                                    "tier": 0.0,
+                                    "tierImage": "TierImage.jpg"
+                                }
+                            ]
+                        },
+                        "badgeUrl": "https://uatlibrary.the1.co.th/content/dam/badge/BNBChampion.png",
+                        "thumbnail": "https://uatlibrary.the1.co.th/content/dam/badge/BNBChampion.png",
+                        "missionType": "checklist",
+                        "brand": {
+                            "code": "brandcode",
+                            "name": "brand name",
+                            "weight": 0.0,
+                            "image": "https://uatlibrary.the1.co.th/content/dam/badge/20250317_Bann_Beyond_Lucky_31.png"
+                        },
+                        "accountingBranch": {
+                            "code": "acct branch code",
+                            "name": "acct branch name"
+                        },
+                        "branch": {
+                            "code": "branch code",
+                            "name": "branch name"
+                        },
+                        "childBadges": [
+                            {
+                                "id": "BDG_REDEEM_ONE",
+                                "newArrival": false,
+                                "campaign": {
+                                    "endDate": "2025-05-23T17:00:01Z",
+                                    "id": "26901",
+                                    "startDate": "2025-04-23T17:00:01Z",
+                                    "behaviors": [
+                                        {
+                                            "title": "Stall #1 Mission Achieved",
+                                            "goalType": "count",
+                                            "id": "37001",
+                                            "outcome": {
+                                                "description": "<p>Get 1 FREE #c item from stall #1</p>",
+                                                "image": "https://uatlibrary.the1.co.th/content/dam/badge/20250317_Bann_Beyond_Lucky_31.png",
+                                                "expiry": "2025-05-31T23:59:00Z",
+                                                "type": "Reward",
+                                                "value": "13a09d046-f437-4245-af9d-f42a7dfa101c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "brand": {},
+                                "accountingBranch": {},
+                                "branch": {},
+                                "childBadges": []
+                            },
+                            {
+                                "id": "BDG_REDEEM_TWO",
+                                "newArrival": false,
+                                "campaign": {
+                                    "endDate": "2025-05-23T17:00:01Z",
+                                    "id": "26912",
+                                    "startDate": "2025-04-23T17:00:01Z",
+                                    "behaviors": [
+                                        {
+                                            "title": "Stall #2 Mission Achieved",
+                                            "goalType": "count",
+                                            "id": "26982",
+                                            "outcome": {
+                                                "description": "<p>Get 1 FREE item #c from stall #2</p>",
+                                                "image": "https://uatlibrary.the1.co.th/content/dam/badge/BDGHUGESPENDERJUN.png",
+                                                "expiry": "2025-05-31T23:59:00Z",
+                                                "type": "Reward",
+                                                "value": "53a09d046-f437-4245-af9d-f42a7dfa101c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "brand": {},
+                                "accountingBranch": {},
+                                "branch": {},
+                                "childBadges": []
+                            },
+                            {
+                                "id": "BDG_REDEEM_THREE",
+                                "newArrival": false,
+                                "campaign": {
+                                    "endDate": "2025-05-23T17:00:01Z",
+                                    "id": "26913",
+                                    "startDate": "2025-04-23T17:00:01Z",
+                                    "behaviors": [
+                                        {
+                                            "title": "Stall #2 Mission Achieved",
+                                            "goalType": "spent",
+                                            "id": "26983",
+                                            "outcome": {
+                                                "description": "<p>Get 1 FREE item #c from stall #2</p>",
+                                                "image": "https://uatlibrary.the1.co.th/content/dam/badge/BDGHUGESPENDERJUN.png",
+                                                "expiry": "2025-05-31T23:59:00Z",
+                                                "type": "Reward",
+                                                "value": "53a09d046-f437-4245-af9d-f42a7dfa101c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "brand": {},
+                                "accountingBranch": {},
+                                "branch": {},
+                                "childBadges": []
+                            },
+                            {
+                                "id": "BDG_REDEEM_FOUR",
+                                "newArrival": false,
+                                "campaign": {
+                                    "endDate": "2025-05-23T17:00:01Z",
+                                    "id": "26914",
+                                    "startDate": "2025-04-23T17:00:01Z",
+                                    "behaviors": [
+                                        {
+                                            "title": "Stall #2 Mission Achieved",
+                                            "goalType": "count",
+                                            "id": "26984",
+                                            "outcome": {
+                                                "description": "<p>Get 1 FREE item #c from stall #2</p>",
+                                                "image": "https://uatlibrary.the1.co.th/content/dam/badge/BDGHUGESPENDERJUN.png",
+                                                "expiry": "2025-05-31T23:59:00Z",
+                                                "type": "Reward",
+                                                "value": "53a09d046-f437-4245-af9d-f42a7dfa101c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "brand": {},
+                                "accountingBranch": {},
+                                "branch": {},
+                                "childBadges": []
+                            }
+                        ],
+                        "analyticsTag": "some tag text"
+                    },
+                    {
+                        "id": "BDG_SEGAFREDO_LOVER3",
+                        "displayName": "Segafredo3",
+                        "newArrival": true,
+                        "termsConditions": "<p>TERMS &amp; CONDITIONS</p><p> </p><p>1. Make 5 drink purchases at Segafredo within May 31, 2025 to finish the mission.</p><p> </p><p>2. Identify your The 1 membership when making purchases to record mission progress</p><p> </p><p>3. Mission progress will be updated and shown on The 1 application within 1 day after making eligible purchases </p><p> </p><p>4. Coupon will be rewarded to your account right after finishing the mission. Please find it in the &quot;&quot;My Rewards&quot;&quot; menu</p><p> </p><p>5. Activity period is 24 April - 31 May 2025</p><p> </p><p>6. Limited to 1 member per 1 privilege per 1 Month throughout the campaign </p><p> </p><p>7. The company reserves the right to change terms and conditions without prior notice.</p><p> </p><p>8. For more details please contact The 1 Call Center 0-2660-1000</p>",
+                        "endingSoon": {
+                            "timeToExpire": 7.0,
+                            "timeUnit": "days"
+                        },
+                        "rules": "Make 5 drink purchases within a month",
+                        "achievementText": "<p>You get a FREE Drink!  I'm thirsty could you get me drink?</p>",
+                        "categories": [
+                            {
+                                "name": "Dinning"
+                            }
+                        ],
+                        "campaign": {
+                            "endDate": "2025-05-31T16:59:59Z",
+                            "name": "BDG_SEGAFREDO_LOVER3",
+                            "description": "",
+                            "id": "7831",
+                            "startDate": "2025-04-23T17:00:01Z",
+                            "behavior": {
+                                "title": "Achieved Fifth Purchase",
+                                "goalType": "count",
+                                "id": "2698"
+                            },
+                            "behaviors": [
+                                {
+                                    "title": "Achieved Fifth Purchase",
+                                    "goalType": "count",
+                                    "id": "2698"
+                                }
+                            ]
+                        },
+                        "outcome": {
+                            "description": "<p>Get 1 FREE Segafredo Drink</p>",
+                            "image": "https://uatlibrary.the1.co.th/content/dam/badge/BNBChampion.png",
+                            "expiry": "2025-05-31T23:59:00Z",
+                            "type": "Reward",
+                            "rootOfferID": "3a09d046-f437-4245-af9d-f42a7dfa101c",
+                            "points": "",
+                            "value": "3a09d046-f437-4245-af9d-f42a7dfa101c"
+                        },
+                        "badgeUrl": "https://uatlibrary.the1.co.th/content/dam/badge/20250317_Bann_Beyond_Lucky_31.png",
+                        "thumbnail": "https://uatlibrary.the1.co.th/content/dam/badge/20250317_Bann_Beyond_Lucky_31.png",
+                        "missionType": "progress",
+                        "brand": {
+                            "code": "brandcode",
+                            "name": "brand name",
+                            "weight": 0.0,
+                            "image": "https://uatlibrary.the1.co.th/content/dam/badge/BNBChampion.png"
+                        },
+                        "accountingBranch": {
+                            "code": "acct branch code",
+                            "name": "acct branch name"
+                        },
+                        "branch": {
+                            "code": "branch code",
+                            "name": "branch name"
+                        },
+                        "childBadges": [],
+                        "analyticsTag": "some tag text"
+                    }
+                ]
+            }   
